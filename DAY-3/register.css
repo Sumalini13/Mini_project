@@ -1,0 +1,188 @@
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  float:left;
+  margin-left: 900px;
+  padding: 15px;
+  margin-top: -100px;
+}
+
+.testbox h1 {
+  text-align: center;
+  color: #f5ebeb;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testbox form {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+.testbox form hr {
+  margin: 0 -20px 20px;
+  border: none;
+}
+
+.testbox .accounttype {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.testbox .radio {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.testbox #icon {
+  margin: 0 auto;
+  width: 50px;
+  height: 100px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  /* margin-left: 50%; */
+}
+
+.testbox #icon1 {
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  /* margin-left: 50%; */
+
+}
+
+.testbox #icon2 {
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
+  line-height: 37px;
+  border-radius: 150%;
+  text-align: center;
+  /* margin-left: 50%; */
+
+}
+
+.testbox input[type='text'],
+.testbox input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: -3%;
+}
+
+.testbox .gender {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.testbox .button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #f94a4a;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-left: -3%;
+}
+
+.testbox .button:hover {
+  background: #16a3aa;
+}
+
+.testbox p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.testbox a {
+  color: #1ae6d2;
+}
+
+.testbox a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styles */
+
+
+.testbox h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testbox form {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.testbox input[type='radio'] {
+  margin-right: 5px;
+}
+
+.testbox .radio {
+  font-weight: 600;
+}
+
+.testbox input[type='text'],
+.testbox input[type='password'] {
+  transition: border-color 0.3s ease;
+}
+
+.testbox input[type='text']:focus,
+.testbox input[type='password']:focus {
+  border-color: #4caf50;
+}
+
+.testbox a.button {
+  margin-top: 30px;
+}
+
+.testbox a.button:hover {
+  background: #ec2e2e;
+  transform: translateY(-2px);
+}
+.awa
+{
+  background-image:  url("https://economictimes.indiatimes.com/thumb/msid-92678996,width-640,resizemode-4,imgsize-149298/indian-traditional-handicrafts.jpg");
+  margin-left:200px;
+  background-repeat: no-repeat;
+  width:700px;
+  height:500px;
+  margin-top: 100px;
+  background-size: cover;
+  padding-inline-end: 100px;
+ 
+
+}
+.uiui
+{
+
+height: 500px;
+margin-top:20px;
+width:1500px;
+background-size: cover;
+}
+
