@@ -1,0 +1,237 @@
+
+
+html {
+    box-sizing: border-box;
+    font: 62.5% "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #353b48;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+/* login */
+
+section {
+    display: flex;
+}
+
+.login-img {
+    display: flex;
+}
+
+.login-form {
+
+    height: 100vh;
+    max-width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5px; 
+   
+}
+
+.box{
+    border-radius: 300px;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: -400px;
+    margin-top: 110px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#company-name {
+    display: none;
+    margin-bottom:80px ;
+}
+
+.login-form h1 {
+    padding-top: -100px;
+    color: #c31432;
+    font-size: 5rem;
+    padding-bottom: 100px;
+}
+
+.login-form p {
+    padding-bottom: -100px;
+    font-size: 1.8rem;
+}
+
+.login-form h3 {
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    width: 50%;
+}
+
+form > * {
+    flex: 100%;
+}
+
+input {
+    border:1px solid #dcdde1;
+    margin-bottom: 10px;
+    /* width:50px; */
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(195, 20, 50, 0.4);
+    box-shadow: 0 0 4px rgba(195, 20, 50, 0.5);
+    /* width:50px; */
+}
+
+label {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+input, button {
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 50px; */
+}
+
+button {
+    background-color: #c31432;
+    border: none;
+    color: #f5f6fa;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: background-color linear .3s;
+    margin-top: 10px;
+}
+
+button:active,
+button:hover {
+    background-color: #a21129;
+}
+
+.text-info {
+    text-align: center;
+   
+}
+
+.text-info a,
+.text-info p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* .text-info p {
+    padding-top: 10px;
+
+} */
+
+.text-info a {
+    color: #a21129;
+    text-decoration: none;
+    transition: color ease-in .3s;
+ 
+}
+
+.text-info a:active,
+.text-info a:hover {
+    color: #353b48;
+}
+
+
+
+/* media queries */
+@media screen and (min-width:990px) {
+
+    .login-form #company-name {
+        display: inline;
+        
+    }
+
+    .login-form h1 {
+        font-size: 3rem;
+    }
+
+    .login-form i {
+        font-size: 2.5rem;
+        vertical-align: super;
+  
+    }
+
+    .login-img 
+    {
+
+        background-image:  url("https://media.licdn.com/dms/image/D4D12AQETg72lgMsPuQ/article-inline_image-shrink_1000_1488/0/1686905165969?e=1694044800&v=beta&t=V715FqoKKn_hPmI4M1rB9jTUzoIq4juwP2EnSYR7IYM");
+        background-position: center;
+        background-size:cover;
+        display: flex;
+        width:800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-left: 360px;
+        border-radius: 200px;
+        
+
+    }
+
+    .login-img h1,
+    .login-img p {
+        width: 800px;
+        height: 350px;
+         margin-top: 100px;
+         margin-left: 20px;
+    }
+
+    .login-img h1 {
+        
+        color: #f5f6fa;
+        font-size: 3.5rem;
+        margin-bottom: 100px;
+    }
+
+    .login-img p {
+        color: #e7c9e0;
+       margin-top:20px;
+    }
+
+    .right
+    {
+        margin-right: 600px;
+        margin-top: 20px;
+    }
+    .fifi h1
+    {
+         margin-bottom: -99px;
+    }
+     .aaa
+    {
+       background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    } 
+}
