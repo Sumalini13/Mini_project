@@ -1,0 +1,27 @@
+.shopping-page {
+    position: relative;
+  }
+  
+  .image-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .image-container img {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Add spacing between images */
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
