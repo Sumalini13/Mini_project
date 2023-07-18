@@ -1,0 +1,115 @@
+/* YourComponent.css */
+
+.container {
+  display: flex;
+  height: 102vh;
+
+}
+
+.sidebar {
+  width: 400px;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://www.jiomart.com/images/product/original/rverxmhaxd/hanish-arts-crafts-pepal-leaf-rajasthani-handmade-painting-size-8-x-10-product-images-orverxmhaxd-p590804829-0-202109271127.jpg?im=Resize=(1000,1000)");
+  background-size:cover;
+  height:900px;
+  background-repeat: no-repeat;
+
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav h3 {
+  padding: 10px 5px;
+  font-size: 25px;
+  align-items: center;
+  color: white;
+}
+li {
+  margin-top: 20px;
+  padding: 10px 5px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color:white;
+}
+
+.nav li a {
+  display: block;
+  color: #f3f2f2;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+  padding: 13px;
+}
+
+
+/* Shop card CSS1 */
+/* YourComponent.css */
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 100px;
+    /* background-color: #cfcfcf; */
+  }
+  
+  .card-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card1 {
+    width: 300px;
+    background-color: #e0e0e0;
+    
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  h2{
+    margin-left: 50%;
+  }
+  main{
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-content1 {
+    padding: 20px;
+  }
+  
+  .card-title1 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-description1 {
+    color: #666;
+  }
+  .bof{
+    /* background-color: #cfcfcf; */
+  }
+  .h2
+  {
+    margin-left: 100px;
+  }
+
+

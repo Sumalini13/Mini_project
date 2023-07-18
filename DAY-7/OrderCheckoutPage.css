@@ -1,0 +1,106 @@
+/* OrderCheckoutPage.css */
+
+.container1234 {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar1234 {
+    width: 200px;
+    background-image: url("https://www.habatat.com/wp-content/gallery/young-brent-kee/Catty..Wumpus.jpg");
+    padding: 20px;
+    background-size: cover;
+    width: 400px;
+  }
+  
+  .sidebar-item1234 {
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #068d2c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 150px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .orders {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-list {
+    margin-top: 20px;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+  
+  .order-details h3 {
+    margin: 0;
+  }
+  
+  .no-orders {
+    margin-top: 20px;
+    font-style: italic;
+    margin-left: 400px;
+    font-size: 30px;
+  }
+  
+  .checkout {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-method {
+    margin-top: 20px;
+  }
+  
+  .payment-method h2 {
+    margin-bottom: 10px;
+    margin-left: 150px;
+  }
+  
+  .payment-method p {
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+  
+  .payment-method ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .payment-method li {
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .payment-button {
+    display: block;
+    width: 150px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left:150px;
+  }
+  
+  /* Add additional styling as needed */
+  
