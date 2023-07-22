@@ -1,0 +1,80 @@
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: #030202;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0e0e0e;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Styling for form error messages */
+  .form-group input:invalid,
+  .form-group textarea:invalid {
+    border-color: #e6c5c3;
+  }
+  
+  .form-group input:invalid:focus,
+  .form-group textarea:invalid:focus {
+    box-shadow: 0 0 3px #e9d2d1;
+  }
+  
+  .form-group input:invalid + span,
+  .form-group textarea:invalid + span {
+    display: block;
+    color: #e9cccb;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .conform
+  {
+    background-image: url("https://img.freepik.com/premium-photo/old-gray-stone-wall_253362-6171.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: 700px;
+  }
