@@ -1,0 +1,229 @@
+/* .form{
+  padding:50px;
+  height:310px;
+  width:1000px;
+    background-size: cover;
+
+  
+}
+.login1{
+    
+  background-image:url("https://img.freepik.com/premium-photo/hands-make-potter-decorative-pattern-earthenware_35076-3898.jpg?w=740");
+    background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+padding:190px;
+    
+  }
+.login-form {
+  text-align: center;
+    max-width: 390px;
+    height:390px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color:rgba(243, 238, 239, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(20, 19, 19);
+    font-family:sans-serif;
+margin-top: -150px;
+    margin-right: 1.4px;
+    }
+  
+  .login-form div {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='email'],
+  .login-form input[type='password'] {
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    padding: 15px;
+    font-size: 10px;
+  }
+  
+  .login-form button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(26, 197, 26);
+    color: rgb(237, 241, 238);
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color:rgb(79, 73, 73);
+  } */
+
+
+
+  .login1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* padding: 190px; */
+    margin-left: -500px;
+    margin-bottom: 300px;
+  
+  }
+  
+  .form {
+    padding: 50px;
+    height: 310px;
+    width: 1000px;
+    background-size: cover;
+  }
+  
+  .login-form {
+    text-align: center;
+    max-width: 390px;
+    height: 490px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(20, 19, 19);
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-right: -40%;
+  }
+  
+  .login-form div {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='email'],
+  .login-form input[type='password'] {
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  
+  .login-form .icon {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 23px;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .login-form button[type='submit'] {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(36, 116, 228);
+    color: rgb(237, 241, 238);
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: -17px;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color: rgb(79, 73, 73);
+  }
+  
+  .links-container {
+    font-size: 14px;
+  }
+  
+  .links-container a {
+    text-decoration: none;
+    
+  }
+  
+  .links-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .links-container a:visited {
+    color: purple;
+  }
+  .img
+  {
+    
+    background-position: center;
+   background-repeat: no-repeat;
+ height: 500px;
+ width: 400px;
+ margin-top:10px;
+ margin-left: 10%;
+ 
+}
+.asd{
+
+  background-image:url("https://img.freepik.com/premium-photo/old-gray-stone-wall_253362-6171.jpg");
+  
+      background-size: cover;
+
+      height: 700px;
+}
+.asda{
+  width: 900px;
+  height: 1000px;
+}
+
+
+  /* ... (existing styles) */
+
+.image-container {
+  position: relative;
+}
+
+.hover-image {
+  max-width: 400px;
+  max-height: 300px;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 1500px;
+  cursor: pointer;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+}
+
+/* Gradient Overlay */
+.hover-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(rgba(112, 109, 109, 0.3), rgba(52, 49, 49, 0.3)); /* Modify the gradient colors and opacity as desired */
+}
+
+input[type='text']::placeholder,
+input[type='email']::placeholder,
+input[type='password']::placeholder,
+input[type='address']::placeholder {
+  color: #888;
+  /* Gray placeholder text color */
+}
+
+.div1
+{
+  margin-bottom: -160px;
+}
+h4{
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+  

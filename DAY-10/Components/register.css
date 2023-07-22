@@ -1,0 +1,106 @@
+/* Stunning CSS for Register component */
+.whole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  /* Gray background */
+  background-image:url("https://img.freepik.com/premium-photo/old-gray-stone-wall_253362-6171.jpg");
+  
+  background-size: cover;
+
+  height: 700px;
+  width: 1420px;
+}
+
+.kl {
+  width: 30%;
+  margin: 80px;
+  margin-left: 150px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+
+}
+
+h3 {
+  text-align: center;
+
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form {
+  text-align: center;
+}
+
+.input-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-field .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888; /* Gray icon color */
+  font-size: 20px;
+  margin-left: -33px;
+  margin-top: -3px;
+  padding: -10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='address'] {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+ /* Gray background for input fields */
+
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type='text']::placeholder,
+input[type='email']::placeholder,
+input[type='password']::placeholder,
+input[type='address']::placeholder {
+  color: #f2ebeb; /* Gray placeholder text color */
+  margin-right: 30%;
+  padding: 10px;
+}
+
+.whole.kl button[type='submit'] {
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(121, 244, 121);
+  color: rgb(237, 241, 238);
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+button[type='submit']:hover {
+  background-color: rgb(79, 73, 73);
+}
+
+p {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
