@@ -1,0 +1,100 @@
+/* Shop.css */
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.product-card {
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  padding: 15px;
+}
+.product-card img{
+  margin-left: 13%;
+}
+.product-card h4{
+font-size: x-large;
+margin-left: 30%;
+}
+.product-card button{
+border-radius: 8px;
+background-color:beige;
+width: 100px;
+height: 30px;
+margin-top: 10px;
+margin-left: 30%;
+}
+.product-card p{
+   font-weight:600 ;
+   margin-left: 20px;
+}
+.product-front {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-front img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product-front h2 {
+  margin: 0;
+}
+
+.product-front p {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-front button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  margin-top: 30px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+  max-width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.empty-cart-message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
