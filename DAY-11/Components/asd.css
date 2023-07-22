@@ -1,0 +1,43 @@
+.container123 {
+    display: flex;
+  }
+  
+  .sidebar123 {
+    background-image: url("https://www.habatat.com/wp-content/gallery/young-brent-kee/Catty..Wumpus.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 500px;
+    padding: 20px;
+    height: 720px;
+  }
+  
+  .sidebar-item {
+    display: block;
+    width:200px;
+    margin-left: 600px;
+ 
+  }
+  
+  .content123 {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+  .order-cards123 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card123 {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+
+  .kk
+  {
+    display: flex;
+  }
+  
