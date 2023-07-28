@@ -1,0 +1,229 @@
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  float:left;
+  margin-left: 700px;
+  padding: 5px;
+  margin-top: -100px;
+}
+
+.testbox h1 {
+  text-align: center;
+  color: #f5ebeb;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testbox form {
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+.testbox form hr {
+  margin: 0 -20px 20px;
+  border: none;
+}
+
+.testbox .accounttype {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.testbox .radio {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.testbox #icon {
+  margin: 0 auto;
+  width: 50px;
+  height: 30px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  /* margin-left: 50%;  */
+}
+
+.testbox #icon1 {
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  /* margin-left: 50%; */
+
+}
+
+.testbox #icon2 {
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
+  line-height: 37px;
+  border-radius: 150%;
+  text-align: center;
+  /* margin-left: 50%; */
+
+}
+
+.testbox input[type='text'],
+.testbox input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: -3%;
+}
+
+.testbox .gender {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.testbox .button {
+  display: block;
+  width: 100%;
+  padding: 1px;
+  border: none;
+  background: #f94a4a;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-left: -3%;
+}
+
+.testbox .button:hover {
+  background: #f3f7f8;
+}
+
+.testbox p {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+.testbox a {
+  color: #0be1f5;
+}
+
+.testbox a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styles */
+
+
+.testbox h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testbox form {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.testbox input[type='radio'] {
+  margin-right: 5px;
+}
+
+.testbox .radio {
+  font-weight: 600;
+}
+
+.testbox input[type='text'],
+.testbox input[type='password'] {
+  transition: border-color 0.3s ease;
+}
+
+.testbox input[type='text']:focus,
+.testbox input[type='password']:focus {
+  border-color: #4caf50;
+}
+
+.testbox a.button {
+  margin-top: 30px;
+}
+
+.testbox a.button:hover {
+  background: #ec2e2e;
+  transform: translateY(-2px);
+}
+.awa
+{
+  background-image:  url("https://i.pinimg.com/564x/b4/7b/66/b47b66103d301518e3f8ae133d8f8e72.jpg");
+  margin-left:100px;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin-bottom: -60.9px;
+  background-size: cover;
+  padding-inline-end: 100px;
+  background-position: center;
+  width:300px;
+  height:250px;
+ 
+
+}
+.yuyu
+{
+  background-image:  url("https://images.asiahighlights.com/allpicture/2020/03/f2d980ce6844463f8dd9da6d_cut_600x800_10.jpg");
+  margin-left:100px;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin-top: -100px;
+  background-size: cover;
+  padding-inline-end: 100px;
+  background-position: center;
+  width:300px;
+  height:250px;
+ 
+
+}
+.oio
+{
+  background-image:  url("https://i.pinimg.com/564x/55/1b/1b/551b1b38da3a5f420a90ad948ee930bf.jpg");
+  margin-left:350px;
+  background-repeat: no-repeat;
+  width:300px;
+  height:250px;
+  margin-bottom: 10px;
+  background-size: cover;
+  padding-inline-end: 100px;
+  background-position: center;
+  padding:10px;
+  border-radius: 50px;
+ 
+ 
+
+}
+.uiui
+{
+ 
+  background: linear-gradient(to bottom, rgba(2, 2, 2, 0.868), rgba(255, 255, 255, 0.8)),
+  url("https://cdn.yehaindia.com/wp-content/uploads/2020/07/aff88775fd3f.jpg");
+  background-size: cover;
+  background-size: 1500px;
+  background-repeat: no-repeat;
+ height:800px;
+ margin-top:-10px;
+ padding:100px;
+ 
+}
+.k p{
+  color: black;
+}
